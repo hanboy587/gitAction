@@ -12,6 +12,6 @@ jobs:
         
       - name: Runt Super-Linter
         uses: gitbhub/super-linter@v3
-        evn:
+        env:
           DEFAULT_BRANCH: main
           GITHUB TOKEN: ${{ secrets.GITHUB_TOKEN }}
